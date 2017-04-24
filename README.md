@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Angular 1.6.1 Boilerplate
 
-You can use the [editor on GitHub](https://github.com/alex-skinner/Angular1-6-1_WebApp_Boilerplate/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A simple AngularJS (v1.6.1) boiler plate to help you quickly get a project started.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alex-skinner/Angular1-6-1_WebApp_Boilerplate/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Technologies used:
+ * LESS
+ * NodeJS and ExpressJS to host the application
+ * NodeMon to detect changes to 'server-side' JS files and automatically re-host the web app
+ * Gulp - which listens to changes in both LESS and 'client side' JS files and rebuilds the main styling and App.js files.
+ * Twitter Bootstrap CSS framekwork
+ 
+ ## Getting Started
+ 1. Clone the repo to your machine
+ 2. Extract
+ 3. Browse to the /cmds/ folder
+ 4. Run _1.Initialise project.cmd_ 
+  a. This will get all project dependancies from NPM/Bower/etc. and build the client-side JS/styling files
+ 5. In CMD prompt, run `npm run dev` to start nodemon and host the site
+ 6. In another CMD prompt, run `gulp auto-build`. This will start Gulp listening for changes to 'client-side' JS changes
+ 
+ 
