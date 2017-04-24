@@ -1,9 +1,9 @@
 {
-  "name": "MyAngularApp",
+  "name": "blank_angular_project",
   "authors": [
-    "Runi Brockie <runi.brockie@redpixie.com>"
+    "Alex Skinner <alex.skinner@redpixie.com>"
   ],
-  "description": "My test app",
+  "description": "Dashboard for Health IoT project",
   "main": "index.html",
   "moduleType": [],
   "license": "MIT",
@@ -17,8 +17,15 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.9",
-    "jquery": "^2.2.0",
-    "angular-route": "^1.4.9"
+    "angular": "~1.6.1",
+    "jquery": "3.1.1",
+    "angular-route": "~1.6.1",
+    "bootstrap": "^3.3.6",
+    "angular-local-storage": "^0.2.7",
+    "angular-bootstrap": "2.4.0",
+    "font-awesome": "^4.6.3"
+  },
+  "resolutions": {
+    "angular": "~1.6.1"
   }
 }
